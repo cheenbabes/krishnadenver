@@ -1,16 +1,25 @@
-#slide2{
+/*default div to have the correct top and bottom margin*/
+.content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/*Gallery Slide*/
+
+#slide2 {
     background-color: #FFFFD7;
 }
+/*Media slide*/
 
-#slide3{
+#slide3 {
     background-color: #FFD69D;
-    
 }
+/*Blog slide*/
 
-#slide4{
+#slide4 {
     background-color: #FFDFDF;
 }
+/*Outreach slide*/
 
-#slide5{
+#slide5 {
     background-color: #FFFAFA
 }
