@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>FullPage.JS and Bootstrap 3</title>
+    <title>ISKCON Denver | Hare Krishna Temple | Radha-Govinda Mandir</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="fullPage/jquery.fullPage.css" />
@@ -27,7 +27,15 @@
             $('#fullpage').fullpage({
                 anchors: ['home', 'gallery', 'media', 'blog', 'outreach'],
                 verticalCentered: false,
+                navigation: true,
+                navigationPosition: 'right',
+                navigationTooltips: ['Home', 'Gallery', 'Media', 'Blog', 'Outreach'],
+                slidesNavigation: 'bottom',
+                scrollOverflow: true,
+                scrollingSpeed: 650
+
             });
+
         });
     </script>
 
@@ -51,8 +59,8 @@
             </div>
 
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#home">Home</a>
+                <ul class="nav navbar-nav" id="menu">
+                    <li><a href="#home">Home</a>
                     </li>
                     <li><a href="#home/1">About</a>
                     </li>
