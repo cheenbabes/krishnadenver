@@ -1,25 +1,94 @@
 /*default div to have the correct top and bottom margin*/
+/*This is necessary so as not to overlap the header and footer*/
 .content {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
-/*Gallery Slide*/
 
+/*home-home*/
+#section0{
+    background-color: #FFFAFA;
+}
+
+/*gallery*/
+#section1{
+    background-color: #D6F8DE;
+    background-image: -webkit-linear-gradient(top, #FFFAFA, #D6F8DE); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+    background-image:    -moz-linear-gradient(top, #FFFAFA, #D6F8DE); /* For Firefox (3.6 to 15) */
+    background-image:      -o-linear-gradient(top, #FFFAFA, #D6F8DE); /* For old Opera (11.1 to 12.0) */ 
+    background-image:         linear-gradient(to bottom, #FFFAFA, #D6F8DE); /* Standard syntax; must be last */
+    
+}
+
+/*media*/
+#section2{
+    background-color: #bbe6f4;
+    background-image: -webkit-linear-gradient(top, #D6F8DE, #BBE6F4); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+    background-image:    -moz-linear-gradient(top, #D6F8DE, #BBE6F4); /* For Firefox (3.6 to 15) */
+    background-image:      -o-linear-gradient(top, #D6F8DE, #BBE6F4); /* For old Opera (11.1 to 12.0) */ 
+    background-image:         linear-gradient(to bottom, #D6F8DE, #BBE6F4); /* Standard syntax; must be last */
+    
+}
+
+/*blog*/
+#section3{
+    background-color: #EDDFFB;
+    background-image: -webkit-linear-gradient(top, #BBE6F4, #EDDFFB); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+    background-image:    -moz-linear-gradient(top, #BBE6F4, #EDDFFB); /* For Firefox (3.6 to 15) */
+    background-image:      -o-linear-gradient(top, #BBE6F4, #EDDFFB); /* For old Opera (11.1 to 12.0) */ 
+    background-image:         linear-gradient(to bottom, #BBE6F4, #EDDFFB); /* Standard syntax; must be last */
+    
+    
+}
+
+/*outreach*/
+#section4{
+    background-color: #FFFAFA;
+    background-image: -webkit-linear-gradient(top, #EDDFFB, #FFFAFA); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+    background-image:    -moz-linear-gradient(top, #EDDFFB, #FFFAFA); /* For Firefox (3.6 to 15) */
+    background-image:      -o-linear-gradient(top, #EDDFFB, #FFFAFA); /* For old Opera (11.1 to 12.0) */ 
+    background-image:         linear-gradient(to bottom, #EDDFFB, #FFFAFA); /* Standard syntax; must be last */
+}
+
+
+
+/*About Slide*/
 #slide2 {
     background-color: #FFFFD7;
+    background-image: -webkit-linear-gradient(left, #FFFAFA, #FFFFD7); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+    background-image:    -moz-linear-gradient(left, #FFFAFA, #FFFFD7); /* For Firefox (3.6 to 15) */
+    background-image:      -o-linear-gradient(left, #FFFAFA, #FFFFD7); /* For old Opera (11.1 to 12.0) */ 
+    background-image:         linear-gradient(to right, #FFFAFA, #FFFFD7); /* Standard syntax; must be last */
 }
-/*Media slide*/
+    
 
+/*Schedule slide*/
 #slide3 {
     background-color: #FFD69D;
+    background-image: -webkit-linear-gradient(left, #FFFFD7, #FFD69D); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+    background-image:    -moz-linear-gradient(left, #FFFFD7, #FFD69D); /* For Firefox (3.6 to 15) */
+    background-image:      -o-linear-gradient(left, #FFFFD7, #FFD69D); /* For old Opera (11.1 to 12.0) */ 
+    background-image:         linear-gradient(to right, #FFFFD7, #FFD69D); /* Standard syntax; must be last */
+    
 }
-/*Blog slide*/
 
+/*Restaurant slide*/
 #slide4 {
     background-color: #FFDFDF;
+    background-image: -webkit-linear-gradient(left, #FFD69D, #FFDFDF); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+    background-image:    -moz-linear-gradient(left, #FFD69D, #FFDFDF); /* For Firefox (3.6 to 15) */
+    background-image:      -o-linear-gradient(left, #FFD69D, #FFDFDF); /* For old Opera (11.1 to 12.0) */ 
+    background-image:         linear-gradient(to right, #FFD69D, #FFDFDF); /* Standard syntax; must be last */
+    
 }
-/*Outreach slide*/
 
+/*Contact slide*/
 #slide5 {
-    background-color: #FFFAFA
+    background-color: #FFFAFA;
+    background-image: -webkit-linear-gradient(left, #FFDFDF, #FFFAFA); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+    background-image:    -moz-linear-gradient(left, #FFDFDF, #FFFAFA); /* For Firefox (3.6 to 15) */
+    background-image:      -o-linear-gradient(left, #FFDFDF, #FFFAFA); /* For old Opera (11.1 to 12.0) */ 
+    background-image:         linear-gradient(to right, #FFDFDF, #FFFAFA); /* Standard syntax; must be last */
+        
+        
 }
