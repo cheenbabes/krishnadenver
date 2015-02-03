@@ -2,8 +2,13 @@
 /*This is necessary so as not to overlap the header and footer*/
 .content {
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 80px;
 }
+
+.img-border{
+    box-shadow: 0px 0px 0px 5px #000, 0px 0px 0px 10px #fff;
+}
+
 
 /*home-home*/
 #section0{
