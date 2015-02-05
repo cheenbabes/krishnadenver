@@ -28,6 +28,7 @@
             $('#fullpage').fullpage({
                 anchors: ['home', 'gallery', 'media', 'blog', 'outreach'],
                 verticalCentered: false,
+                //Not necessary as the arrows get in the way
                 //                navigation: true,
                 //                navigationPosition: 'right',
                 //                navigationTooltips: ['Home', 'Gallery', 'Media', 'Blog', 'Outreach'],
@@ -172,15 +173,16 @@
             </div>
 
             <div class="slide" id="slide3">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="content">
                         <div class="row">
                             <div class="col-xs-12 bg-content">
                                 <h1 class="text-center">Temple Schedule</h1>
+                                <hr>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <div class="panel panel-primary">
                                     <div class="panel-heading">Monday - Saturday</div>
                                     <div class="panel-body">
@@ -262,7 +264,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <div class="panel panel-primary">
                                     <div class="panel-heading">Sunday</div>
                                     <div class="panel-body">
@@ -343,23 +345,22 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="panel panel-default">
-                                            <div class="panel-heading">Upcoming events</div>
-                                            <div class="panel-body">
-                                                Events go here</div>
-                                        </div>
+                            <div class="col-md-3">
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">Upcoming events</div>
+                                    <div class="panel-body">
+                                        <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=550&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=fdvul0h6ri8lmou6cojk3thhkc%40group.calendar.google.com&amp;color=%23182C57&amp;src=ph04h2curvp4n5q22lfc7fvuv4%40group.calendar.google.com&amp;color=%238D6F47&amp;ctz=America%2FDenver" style=" border-width:0 " width="400" height="550" frameborder="0" scrolling="no"></iframe>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="panel panel-default">
-                                            <div class="panel-heading">Upcoming events</div>
-                                            <div class="panel-body">
-                                                Events go here</div>
-                                        </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">Weekly events</div>
+                                    <div class="panel-body">
+                                        <div class="alert alert-warning"><strong>Tuesday: </strong>Fort Collins Campus program, 4:30 PM</div>
+                                        <div class="alert alert-info"><strong>Wednesday: </strong>Dharma Den, 6:30 PM </div>
+                                        <div class="alert alert-success"><strong>Friday: </strong>Kirtan in the Temple room, 6:30 PM</div>
+                                        <div class="alert alert-danger"><strong>Sunday: </strong>Love Feast: 5:00 PM</div>
                                     </div>
                                 </div>
                             </div>
